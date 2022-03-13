@@ -23,7 +23,7 @@ body{
 .scan .fingerprint{
     position: relative;
     width: 300px;
-    height: 300px;
+    height: 380px;
     background: url(fingerPrint_01.png);
     background-size: 300px;
 }
@@ -63,5 +63,10 @@ body{
 }
 
 @keyframes animate_line{
-    
+    0%,100%{
+        top: 0;
+    }
+    50%{
+        top: 100%
+    }
 }
